@@ -26,7 +26,7 @@ function UserComponent() {
     <div className="container">
       <h1 className="mt-4">Consulta API de Random Data</h1>
       <Button color="primary" onClick={fetchData} className="mt-4">
-         Información Usuario Aleatoria
+        Información Usuario Aleatoria
       </Button>
       {userInfo && (
         <Card className="mt-4">
